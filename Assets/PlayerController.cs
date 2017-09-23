@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,16 +10,12 @@ public class PlayerController : MonoBehaviour {
 	public float speed = 6; //character's speed
 	public float jumpForce = 10; //character's jump velocity
 	private bool isGround = false;
-
-
-	public LayerMask groundLayer;
-
+	public LayerMask groundLayer;	
 	private Rigidbody rb; //rigidbody component
 
 	void Awake(){
 		rb = this.GetComponent<Rigidbody> ();
 	}
-
 
 	// Use this for initialization
 	void Start () {
