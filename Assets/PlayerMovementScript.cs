@@ -7,7 +7,7 @@ public class PlayerMovementScript : MonoBehaviour {
     public float timeForMove = 0.2f;
     public float jumpHeight = 1.0f;
     public int minX = -4;
-    public int maxX = 4;
+    public int maxX = 5;
     public GameObject[] leftSide;
     public GameObject[] rightSide;
     public float leftRotation = -45.0f;
@@ -66,6 +66,7 @@ public class PlayerMovementScript : MonoBehaviour {
         else if (Input.GetKeyDown(KeyCode.S))
         {
             Move(new Vector3(0, 0, -1));
+
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
