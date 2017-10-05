@@ -36,7 +36,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public void Update()
     {
-        if (moving)
+        if (moving) //this provides better performance.
         {
             MovePlayer();
         }
@@ -59,23 +59,23 @@ public class PlayerMovementScript : MonoBehaviour {
 
     private void HandleInput()
     {		
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W)) //or swipe up
         {
             Move(new Vector3(0, 0, 1));
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S)) //or swipe down
         {
             Move(new Vector3(0, 0, -1));
 
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.A)) //or swipe left
         {
             if (Mathf.RoundToInt(current.x) > minX)
             {
                 Move(new Vector3(-1, 0, 0));
             }
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.D)) //or swipe right
         {
             if (Mathf.RoundToInt(current.x) < maxX)
             {
