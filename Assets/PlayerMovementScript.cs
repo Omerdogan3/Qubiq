@@ -6,8 +6,8 @@ public class PlayerMovementScript : MonoBehaviour {
     public bool canMove = false;
     public float timeForMove = 0.2f;
     public float jumpHeight = 1.0f;
-    public int minX = -4;
-    public int maxX = 5;
+    public int minX = -20;
+    public int maxX = 20;
     public GameObject[] leftSide;
     public GameObject[] rightSide;
     public float leftRotation = -45.0f;
@@ -114,7 +114,6 @@ public class PlayerMovementScript : MonoBehaviour {
                 break;
         }
 
-        // Rotate arm and leg.
         foreach (var o in leftSide)
         {
             o.transform.Rotate(leftRotation, 0, 0);
