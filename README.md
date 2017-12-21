@@ -18,3 +18,6 @@ Example For Low Poly Design Concept: https://www.pinterest.com/pin/3504364147451
 
 # Project Charter
 <a href="https://hizliresim.com/Byp49g"><img src="https://i.hizliresim.com/Byp49g.png"></a>
+
+# Project Plan
+https://drive.google.com/file/d/0B6mVvUicR7UxMlRoMzRrSG1ZWWEwaHIwR1ozRG01blRUT19J/view?usp=sharing
