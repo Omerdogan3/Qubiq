@@ -15,3 +15,6 @@ Example For Low Poly Design Concept: https://www.pinterest.com/pin/3504364147451
 - Blender, Photoshop
 - Dreamlo
 - Git or another versioning system
+
+# Project Charter
+<a href="https://hizliresim.com/Byp49g"><img src="https://i.hizliresim.com/Byp49g.png"></a>
