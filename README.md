@@ -17,7 +17,7 @@ Example For Low Poly Design Concept: https://www.pinterest.com/pin/3504364147451
 - Git or another versioning system
 
 # Project Charter
-<a href="https://hizliresim.com/Byp49g"><img src="https://i.hizliresim.com/Byp49g.png"></a>
+[![image](https://i.hizliresim.com/Byp49g.png)](https://hizliresim.com/Byp49g)
 
 # Project Plan
 https://drive.google.com/file/d/0B6mVvUicR7UxMlRoMzRrSG1ZWWEwaHIwR1ozRG01blRUT19J/view?usp=sharing
